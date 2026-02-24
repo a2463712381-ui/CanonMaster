@@ -45,6 +45,9 @@ def apply_custom_style():
             overflow: hidden !important;
         }
         footer {display: none !important;}
+        
+        /* 👇 新增：物理超度 Streamlit 官方嵌入模式的底栏 (气球和全屏按钮) */
+        .viewerBadge_container {display: none !important;}
 
         /* ============================================================ */
         /* 2. 侧边栏容器 (Sidebar Container) */
