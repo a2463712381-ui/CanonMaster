@@ -56,12 +56,15 @@ def apply_custom_style():
             z-index: 99999 !important;
             background-color: #f8f9fa !important;
         }
-        /* 彻底隐藏右下角的 Made with Streamlit 水印和所有官方挂件 */
-        #MainMenu {visibility: hidden !important;}
-        footer {display: none !important;}
-        header {display: none !important;}
-        .viewerBadge_container__1QSob {display: none !important;}
-        .viewerBadge_link__1S137 {display: none !important;}
+        /* 强制隐藏Streamlit右上角红色纸船菜单按钮（最新版Streamlit适配） */
+        [data-testid="stDecoration"] {
+        display: none !important;
+        }
+
+        /* 兜底兼容：隐藏所有Streamlit官方顶部装饰元素（兼容旧版本） */
+        .stApp > header {
+        display: none !important;
+        }
 
         /* ============================================================ */
         /* 3. 侧边栏内容区 (Sidebar Content) */
