@@ -1,5 +1,3 @@
-import streamlit as st
-
 def apply_custom_style():
     st.markdown("""
         <style>
@@ -27,10 +25,23 @@ def apply_custom_style():
             gap: 0.5rem !important;
         }
 
-        /* 隐藏原生杂项 */
-        #MainMenu {visibility: hidden !important;}
+        /* 隐藏原生杂项（云端暴力增强版） */
+        #MainMenu {visibility: hidden !important; display: none !important;}
         .stDeployButton {display:none !important;}
-        header[data-testid="stHeader"] {display: none !important;} 
+        /* 终极隐藏顶部header（覆盖所有云端版本） */
+        header[data-testid="stHeader"],
+        .stApp > header,
+        .stApp header,
+        header[class*="stHeader"] {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+        }
         footer {display: none !important;}
 
         /* ============================================================ */
@@ -56,14 +67,35 @@ def apply_custom_style():
             z-index: 99999 !important;
             background-color: #f8f9fa !important;
         }
-        /* 强制隐藏Streamlit右上角红色纸船菜单按钮（最新版Streamlit适配） */
+
+        /* ============== 【核心】云端终极隐藏Streamlit右上角红色纸船 ============== */
+        /* 方案1：精准定位云端最新版纸船 */
         [data-testid="stDecoration"] {
-        display: none !important;
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            position: absolute !important;
+            top: -9999px !important;
+            left: -9999px !important;
+            width: 0 !important;
+            height: 0 !important;
+            overflow: hidden !important;
+            z-index: -9999 !important;
         }
 
-        /* 兜底兼容：隐藏所有Streamlit官方顶部装饰元素（兼容旧版本） */
-        .stApp > header {
-        display: none !important;
+        /* 方案2：暴力隐藏所有可能的装饰元素（覆盖所有云端DOM结构） */
+        div[data-testid*="stDecoration"],
+        div[class*="stDecoration"],
+        .stDecoration,
+        [data-testid="stDecoration"] * {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        /* 方案3：针对云端iframe嵌入的额外隐藏 */
+        iframe [data-testid="stDecoration"],
+        iframe .stApp header {
+            display: none !important;
         }
 
         /* ============================================================ */
@@ -290,4 +322,3 @@ def apply_custom_style():
 
         </style>
     """, unsafe_allow_html=True)
-        
