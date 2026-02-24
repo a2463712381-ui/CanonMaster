@@ -1,0 +1,31 @@
+# Python 运行缓存（无用，自动生成）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit 密钥配置（绝对不能上传！核心风险文件）
+.streamlit/secrets.toml
+
+# 个人临时文件（不需要开源）
+all_code_for_ai.txt
+
+# 系统缓存文件
+.DS_Store
+Thumbs.db
