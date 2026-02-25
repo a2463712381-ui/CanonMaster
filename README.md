@@ -61,7 +61,7 @@
 ## 🎯 效果演示
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/07f7dacc-a8c6-4513-90bb-1f91b9f01f34" alt="典校大师排版演示" width="100%">
+  <img src="https://picui.ogmua.cn/s1/2026/02/25/699ecab79160f.webp" alt="典校大师排版演示" width="100%">
 </p>
 
 <p align="center">
