@@ -5,31 +5,56 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://canonmaster.streamlit.app/?embed=true)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/你的用户名/你的Space名字)
 
-**为文献排版而生 · 基于大语言模型的智能参考文献排版引擎**| **一键适配国标GB/T 7714与核心期刊体例**
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-v1.0-8b0000" alt="版本">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="代码协议">
+  <img src="https://img.shields.io/badge/Prompt-CC_BY--NC--SA_4.0-blue" alt="提示词协议">
+  <img src="https://img.shields.io/badge/Built_with-Streamlit-red" alt="技术栈">
+  <img src="https://img.shields.io/badge/Model-GLM--5-purple" alt="底层模型">
+</p>
+
+<p align="center">
+  <a href="#-核心功能">核心功能</a> ·
+  <a href="#-在线体验">在线体验</a> ·
+  <a href="#-本地部署">本地部署</a> ·
+  <a href="#-功能详解">功能详解</a> ·
+  <a href="#-常见问题">常见问题</a> ·
+  <a href="#-交流共建">交流共建</a>
+</p>
+
+
+**为文献排版而生 · 基于大语言模型的智能参考文献排版引擎**| **一键适配国标GB/T 7714与专业期刊体例**
 
 
 **CanonMaster · 典校大师** 专为人文社科领域学术群体打造，基于智谱GLM-5大语言模型，一键将格式混乱、缺项漏项的参考文献，转换为符合学术标准的规范格式。从论文写作到期刊投稿，一站式解决你的参考文献排版痛点。
 
+### **解决的核心痛点**
+学术写作中，你是否遇到过这些问题：
+  -参考文献格式混乱、标点错误、缺项漏项，手动校对耗费大量时间
+  -不同期刊体例要求不一，反复调整格式占用写作精力
+  -传统文献排版工具只能处理简单格式，无法完成语义级的信息补全与上下文继承
+  -移动端临时改稿，没有趁手的文献排版工具
+
 ### ✨ 核心亮点
-- 🎓 **学术级规范**：严格遵循GB/T 7714-2015国标，内置《文学遗产》等核心期刊官方体例
-- 📱 **全端自适应**：桌面端/移动端自动适配，电脑批量处理、手机随时修改无缝衔接
-- 🧠 **智能语义处理**：不止正则替换，可智能识别文献要素、补全静态信息、处理同上/同前省略格式
-- 🛡️ **防幻觉设计**：核心动态信息（年份、页码、出版社）不瞎编，缺失项明确标记，拒绝学术不端风险
-- 📦 **开箱即用**：在线版无需安装，本地版3步部署完成，零技术门槛也能轻松使用
-- 🔒 **隐私安全**：所有数据仅存于用户浏览器本地，不联网存储，刷新即销毁，保障文献数据安全
+-  **学术规范**：严格遵循GB/T 7714-2015国标，内置《文学遗产》等期刊的排版要求
+-  **智能处理**：不止正则替换，可智能识别文献要素、补全静态信息、处理同上/同前省略格式
+-  **防幻觉设计**：核心动态信息（年份、页码、出版社）不瞎编，缺失项明确标记，拒绝学术不端风险
+-  **开箱即用**：在线版打开即用，本地版3步部署完成，零技术门槛也能轻松使用
 
 ---
+### 效果输出
 
-## 🚀 在线体验
+##  在线体验
 无需安装、无需配置，点击下方链接即可一键使用：
-> 🔗 [典校大师 - 在线体验地址]（替换为你的Streamlit Cloud/部署地址）
+> 🔗 [[典校大师 - 在线体验地址](https://ldkacla-canonmaster.hf.space)]
+👉 **[线路一：Streamlit 官方云端版](https://canonmaster.streamlit.app/?embed=true)
 
 ---
 
-## 📦 本地部署
+##  本地部署
 ### 环境要求
 - Python >= 3.10
-- 有效的ModelScope API Key（可在[ModelScope官网](https://modelscope.cn/)免费获取）
+- 有效的ModelScope API Key
 
 ### 部署步骤
 1.  **克隆仓库**
@@ -38,15 +63,6 @@ git clone https://github.com/a2463712381-ui/CanonMaster.git
 cd CanonMaster
 ---
 
-## 💡 项目简介
-
-典校大师是一款基于智谱 GLM-5 大语言模型开发的开源学术工具，专为人文社科领域的本硕博学生、高校教师、科研人员与学术编辑打造。
-**解决的核心痛点**
-学术写作中，你是否遇到过这些问题：
-  -参考文献格式混乱、标点错误、缺项漏项，手动校对耗费大量时间
-  -不同期刊体例要求不一，反复调整格式占用写作精力
-  -传统文献排版工具只能处理简单格式，无法完成语义级的信息补全与上下文继承
-  -移动端临时改稿，没有趁手的文献排版工具
 
 
 ## ✨ 核心亮点
