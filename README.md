@@ -12,12 +12,9 @@
 </p>
 
 <p align="center">
+  <!-- 核心CTA按钮放大，主色强化，是整个页面最抓眼的元素 -->
   <a href="https://ldkacla-canonmaster.hf.space" target="_blank">
-    <img 
-      src="https://img.shields.io/badge/🚀_点击_立即在线体验-8b0000?style=for-the-badge" 
-      alt="在线体验"
-      style="transform: scale(1.25); transform-origin: center;"
-    >
+    <img src="https://img.shields.io/badge/🚀_点击_立即在线体验-8b0000?style=for-the-badge" alt="在线体验">
   </a>
 </p>
 
