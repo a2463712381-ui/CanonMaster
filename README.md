@@ -60,13 +60,11 @@
 
 ## 🎯 效果演示
 
-## 🎯 效果演示
 <p align="center">
-  <img src="<!-- Uploading "816b48c17324805ab94fe5c91d03d9ae.png"... -->" alt="典校大师排版演示" width="100%">
+  <img src="https://github.com/user-attachments/assets/07f7dacc-a8c6-4513-90bb-1f91b9f01f34" alt="典校大师排版演示" width="100%">
 </p>
 
 <p align="center">
-  <!-- 二次强化核心CTA，看完效果直接引导使用 -->
   <a href="https://ldkacla-canonmaster.hf.space" target="_blank">
     <img src="https://img.shields.io/badge/📑_立即体验_一键排版-8b0000?style=flat-square" alt="立即体验">
   </a>
