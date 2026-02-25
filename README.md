@@ -38,19 +38,19 @@
 <p align="center">
 <table>
   <tr>
-    <td width="25%" align="center"><strong>🎓 学术级规范</strong></td>
-    <td width="75%">严格遵循GB/T 7714-2015国家标准，内置《文学遗产》等人文社科核心期刊官方排版体例，投稿格式一步到位</td>
+    <td width="25%" align="center"><strong>学术级规范</strong></td>
+    <td width="75%">严格遵循GB/T 7714-2015国家标准，同时内置《文学遗产》等期刊官方排版体例，文献排版格式一步到位</td>
   </tr>
   <tr>
-    <td align="center"><strong>🧠 语义级处理</strong></td>
+    <td align="center"><strong>语义级处理</strong></td>
     <td>不止简单正则替换，可智能识别文献核心要素、补全静态事实信息、自动处理「同上/同前」省略格式，复杂场景也能精准处理</td>
   </tr>
   <tr>
-    <td align="center"><strong>🛡️ 零幻觉防风险</strong></td>
-    <td>年份、页码、出版社等核心动态信息绝不编造，缺失项明确标记 <code>[缺:xx]</code>，从根源规避学术不端风险</td>
+    <td align="center"><strong>防幻觉机制</strong></td>
+    <td>年份、页码、出版社等核心动态信息绝不编造，缺失项明确标记 <code>[缺:xx]</code>，规避学术不端风险</td>
   </tr>
   <tr>
-    <td align="center"><strong>📱 全端自适应</strong></td>
+    <td align="center"><strong>全端自适应</strong></td>
     <td>电脑端/移动端自动无缝适配，浏览器点开即用，无需安装、无需配置，零技术门槛也能轻松上手</td>
   </tr>
 </table>
@@ -109,5 +109,5 @@
 
 ## 📄 开源协议
 - 项目代码（UI界面与业务逻辑）：采用 **MIT License开源协议**
-- 核心Prompt模板（`prompts.py`）：采用 **CC BY-NC-SA 4.0 国际许可协议**
+- 核心Prompt模板（`prompts.py`）：采用 **CC BY-NC-SA 4.0 国际许可协议**（严禁任何形式的商业化闭源牟利）
 
