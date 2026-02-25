@@ -1,15 +1,18 @@
-# 双许可授权声明 (Dual License Statement)
+# Dual License Statement
+
 Copyright (c) 2026 青青翠竹 (GitHub: a2463712381-ui)
-版权所有，保留所有权利。
+All Rights Reserved.
 
-本项目采用「代码与创意内容分轨授权」模式，不同资产对应不同开源许可协议，具体边界如下：
+This project adopts a "Dual-Track Licensing for Code and Creative Content" model. Different assets within the repository are governed by different open-source licenses. The specific boundaries are defined as follows:
+
 ----------------------------------------------------------------------
-1. 【代码资产】采用 MIT License 授权
-适用范围：项目内所有工程代码文件，包括但不限于：
-   - main.py、app.py、app_mobile.py、styles.py、export_code.py 等所有Python、CSS相关代码文件
-   - 项目内除prompts.py外的所有可执行代码、界面逻辑、工具函数代码
+1. [Code Assets] Licensed under the MIT License
 
-以下为 MIT License 完整官方文本：
+Scope of Application: All engineering code files within the project, including but not limited to:
+   - main.py, app.py, app_mobile.py, styles.py, export_code.py, and all other Python/CSS related source code files.
+   - All executable code, UI logic, and utility functions within the project, EXCEPT for the `prompts.py` file.
+
+The official text of the MIT License is as follows:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,20 +33,22 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ----------------------------------------------------------------------
-2. 【创意核心资产】采用 CC BY-NC-SA 4.0 国际许可协议 授权
-适用范围：项目内prompts.py文件中的全部Prompt模板、项目文档、使用说明、介绍文案、命名与品牌创意内容。
+2. [Creative Core Assets] Licensed under the CC BY-NC-SA 4.0 License
 
-您可以自由地：
-- 共享 — 在任何媒介以任何形式复制、发行本作品
-- 演绎 — 修改、转换、基于本作品进行二次创作
+Scope of Application: All Prompt templates within the `prompts.py` file, project documentation, usage instructions, introductory copywriting, naming, and brand creative content.
 
-在以下条款约束下：
-- 署名（BY）：您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否对原始作品作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
-- 非商业性使用（NC）：您不得将本作品用于任何直接或间接的商业营利目的，包括但不限于付费工具、付费API、付费论文服务、商业软件集成、商业机构内部生产环节等。个人学术研究、高校/科研机构非盈利科研使用不受此限。
-- 相同方式共享（SA）：如果您修改、转换或者基于本作品进行二次创作，您必须基于与原先许可协议相同的许可协议分发您贡献的作品。
+You are free to:
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material.
 
-完整许可协议官方文本：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Under the following terms:
+- Attribution (BY): You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial (NC): You may not use the material for any direct or indirect commercial purposes, including but not limited to paid tools, paid APIs, paid paper/formatting services, commercial software integrations, or internal production pipelines of commercial entities. Personal academic research and non-profit scientific research by universities/research institutions are exempt from this restriction.
+- ShareAlike (SA): If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Official License Text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ----------------------------------------------------------------------
-【重要声明】
-上述许可协议仅针对第三方使用者，本项目原始著作权人（版权方）保留全部权利，不受上述任何开源协议的限制，可自由对本项目进行商业使用、二次授权、版本更新与规则修改。
+[Important Declaration / Reservation of Rights]
+
+The aforementioned license agreements and restrictions apply exclusively to third-party users. The original copyright holder of this project retains all rights and is NOT restricted by any of the above open-source licenses. The original copyright holder reserves the absolute right to freely use this project for commercial purposes, issue secondary commercial sub-licenses, release version updates, and modify these rules at any time.
