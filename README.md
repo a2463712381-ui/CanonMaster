@@ -1,3 +1,15 @@
+---
+title: CanonMaster·典校大师
+emoji: 📜
+colorFrom: green
+colorTo: red
+sdk: streamlit
+sdk_version: "1.32.0"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 📜 CanonMaster · 典校大师
 > **为文献排版而生 · 基于大语言模型的智能参考文献排版引擎**  
 > 一键适配国标GB/T 7714-2015与专业期刊官方体例
